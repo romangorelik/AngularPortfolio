@@ -1,9 +1,16 @@
 .vertical-menu {
-  width: 100px; /* Set a width if you like */
-  margin: 4%;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 10%; /* Stay at the top */
+  left: 5%;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
 }
 
 .vertical-menu a {
+  width: 100px; /* Set a width if you like */
   color: #1685c0; /* Black text color */
   display: block; /* Make the links appear below each other */
   padding: 12px; /* Add some padding */
@@ -18,3 +25,4 @@
 .vertical-menu a.active {
   color: #ba1b99;
 }
+
