@@ -1,0 +1,20 @@
+.vertical-menu {
+  width: 100px; /* Set a width if you like */
+  margin: 4%;
+}
+
+.vertical-menu a {
+  color: #1685c0; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  font-family: 'Montserrat', sans-serif;
+}
+
+.vertical-menu a:hover {
+  font-size: 24px;
+}
+
+.vertical-menu a.active {
+  color: #ba1b99;
+}
